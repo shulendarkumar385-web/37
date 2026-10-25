@@ -1,0 +1,1 @@
+import{g as t}from"./request-BuCbyRs6.js";const r=()=>t("/api/market/overview"),a=(e="chg1d")=>t("/api/market/sectors",{sort:e}),c=(e=15)=>t("/api/movers",{top:e}),i=(e,o=250)=>t(`/api/market/history/${encodeURIComponent(e)}`,{days:o});export{c as a,a as b,i as c,r as g};

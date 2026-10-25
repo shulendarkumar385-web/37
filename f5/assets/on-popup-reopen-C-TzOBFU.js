@@ -1,0 +1,1 @@
+import{a2 as p,U as n,R as e,j as u}from"./index-DuqrT-MJ.js";function c(o,{args:t=[],done:s,canceled:i,error:f}){if(o){const a=o.apply(null,t);p(a)?a.then(l=>{l?s():i&&i()}).catch(f||n):a?s():i&&i()}else s()}const r=Symbol();function m(o){const t=e(r,null);t&&u(t,s=>{s&&o()})}export{r as P,c,m as o};
